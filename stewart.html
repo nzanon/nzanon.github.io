@@ -1,23 +1,69 @@
 <!DOCTYPE html>
-<title>3-Legged Stewart Gough Platform</title>
-<body></body>
-    <h1>3-Legged Stewart Gough Platform</h1>
-    <p><a href="https://en.wikipedia.org/wiki/Stewart_platform">Stewart Gough Platforms</a>, or simply "Motion Platforms", are typically platforms with 6 actuators (legs), 
-        that are fixed to hinges on a platform at 3 points. These actuators push and pull the platform, allowing it to rotate in various different directions. My project took
-        out half of the legs and settled on 3. Instead of rotating a platform, my project uses pins to angle an object in the middle. 
-        <img src="FullAssembly.jpg" alt="Solidworks Full Assembly picture">
-       
-        This process was inspired by an orthopedic surgery Robot by <a href="https://www.youtube.com/watch?v=zoUTy3WPiXY">Robossis</a>, a biomedical engineering company that
-        created the first and only surgical robot for long bone fracture realignments. I had the pleasure of working with them during the Fall of 2021, through Rowan University's
-        undergraduate Clinic program. 
-        <img src="Picture1.jpg" alt="Solidworks Full Assembly picture">
-        <img src="OneLegAssembly.jpg" alt="Solidworks Full Assembly picture">
-        <img src="BallJointGif.gif" alt="Solidworks Full Assembly picture">
-        <img src="BallJoint_SectionView.jpg" alt="Solidworks Full Assembly picture">
-        <img src="BallJoint_Hole.jpg" alt="Solidworks Full Assembly picture">
-        <img src="Slider.jpg" alt="Solidworks Full Assembly picture">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3-Legged Stewart Gough Platform</title>
+  <link href="bootstrap.css" rel="stylesheet">
+</head>
 
-        </p>
-    
+<body>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nick Zanon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="stewart.html">Stewart Gough Platform</a></li>
+              <li><a class="dropdown-item" href="firstboard.html">Acrylic Light Board</a></li>
+              <li><a class="dropdown-item" href="ornament.html">Snowflake Ornament</a></li>
+              <li><a class="dropdown-item" href="sleepAid.html">Haptic Sleep Aid</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
 
+  <!-- Content-->
+  <h1>3-Legged Stewart Gough Platform</h1>
+  <p>
+      <a href="https://en.wikipedia.org/wiki/Stewart_platform">Stewart Gough Platforms</a>, or simply "Motion Platforms", are typically platforms with 6 actuators (legs), 
+      that are fixed to hinges on a platform at 3 points. These actuators push and pull the platform, allowing it to rotate in various different directions. My project took
+      out half of the legs and settled on 3. Instead of rotating a platform, my project uses pins to angle an object in the middle. 
+  </p>
+  <p>
+      <img src="Pictures\StewartGough\FullAssembly.jpg" alt="Solidworks Full Assembly picture">
+     
+   <p>
+      This process was inspired by an orthopedic surgery Robot by <a href="https://www.youtube.com/watch?v=zoUTy3WPiXY">Robossis</a>, a biomedical engineering company that
+      created the first and only surgical robot for long bone fracture realignments. I had the pleasure of working with them during the Fall of 2021, through Rowan University's
+      undergraduate Clinic program. 
+  </p>
+  <p>
+      <img src="Pictures\StewartGough\Schematicv1.png">
+      <img src="Pictures\StewartGough\PCBv1.png">
+      <img src="Pictures\StewartGough\Picture1.jpg" alt="Solidworks Full Assembly picture">
+      <img src="Pictures\StewartGough\OneLegAssembly.jpg" alt="Solidworks Full Assembly picture">
+      <img src="Pictures\StewartGough\BallJointGif.gif" alt="Solidworks Full Assembly picture">
+      <img src="Pictures\StewartGough\BallJoint_SectionView.jpg" alt="Solidworks Full Assembly picture">
+      <img src="Pictures\StewartGough\BallJoint_Hole.jpg" alt="Solidworks Full Assembly picture">
+      <img src="Pictures\StewartGough\Slider.jpg" alt="Solidworks Full Assembly picture">
+  </p>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+</html>
